@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var choice=prompt("WELCOME TO AREA CALCULATOR\n1.area of triangle\n2.area of square\n3.area of rectangle\n4.areaof circle\n5.area of rhombus");
+        if(choice=="1"){
+            var h=Number(prompt("enter the height of triangle"));
+            var b=Number(prompt("enter the base"));
+            var result=b*h/2;
+            alert("the area of triangle is "+result);
+
+        }
+         if (choice == "2") {
+                var s = Number(prompt("enter the side of square"));
+               
+                var result = s*s
+                alert("the area of square is " + result);
+
+            }
+            if (choice == "3") {
+                    var l = Number(prompt("enter the length of rectangle"));
+                     var b = Number(prompt("enter the breadth of rectangle"));
+
+                    var result = l * b
+                    alert("the area of rectangle is " + result);
+
+                }
+                 if (choice == "4") {
+                        var r = Number(prompt("enter the radius of circle"));
+                        
+
+                        var result = 3.14*r*r;
+                        alert("the area of circle is " + result);
+
+                    }
+                     if (choice == "5") {
+                            var l= Number(prompt("enter the length of rhombus"));
+                            var h = Number(prompt("enter the height of rhombus"));
+
+
+                            var result = l*h/2;
+                            alert("the area of rhombus is " + result);
+
+                        }
+                 
+    </script>
+</body>
+</html>
